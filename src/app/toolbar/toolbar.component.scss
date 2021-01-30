@@ -1,3 +1,24 @@
-.title {
+.toolbar-font {
   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.title-pad {
+	width: 16px;
+}
+
+.extra-pad {
+	width: 16px;
+}
+
+.toolbar-spacer {
+	flex: 1 1 auto;
+}
+
+/* Just trying something out. */
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
 }
