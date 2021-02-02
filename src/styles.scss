@@ -1,6 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
-@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+/* @import '@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
+@import "~@angular/material/theming";
+
+@include mat-core();
+
+$angular-primary: mat-palette($mat-indigo, 300);
+$angular-accent: mat-palette($mat-cyan, 400);
+$angular-warn: mat-palette($mat-red);
+
+$angular-dark-theme: mat-dark-theme(
+  (
+    color: (
+      primary: $angular-primary,
+      accent: $angular-accent,
+      warn: $angular-warn,
+    ),
+  )
+);
+
+
+@include angular-material-theme($angular-dark-theme);
+
+
+$angular-default-theme: mat-light-theme(
+  (
+    color: (
+      primary: $angular-primary,
+      accent: $angular-accent,
+      warn: $angular-warn,
+    ),
+  )
+);
+
+.regMode {
+  @include angular-material-color($angular-default-theme);
+}
+
+
+html,
+body {
+  height: 100%;
+}
 
 body {
 	margin: 0;
+}
+
+mat-card img{
+  object-fit: cover;
+  width: 100%; 
+  height: 100%;
 }

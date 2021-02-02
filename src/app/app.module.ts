@@ -13,13 +13,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SmallBioComponent } from './small-bio/small-bio.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SmallBioComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
