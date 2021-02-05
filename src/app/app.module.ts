@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { SmallBioComponent } from './small-bio/small-bio.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { RolesComponent } from './roles/roles.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProjectsComponent } from './projects/projects.component';
     HomeComponent,
     SmallBioComponent,
     ToolbarComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    RolesComponent
   ],
   imports: [
     BrowserModule,
