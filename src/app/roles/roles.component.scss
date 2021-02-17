@@ -1,11 +1,18 @@
+/* top right bottom left */
 .content {
-   padding: 32px;
+   padding: 16px 64px 0px 64px;
 }
 
 /* The purpose of this is to make the mat-card fill the entire flex layout grid tile. 
    It only gets applied to the 'roles' component. */
 mat-card {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+role-words-box {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
