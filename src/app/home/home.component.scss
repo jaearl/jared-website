@@ -9,3 +9,28 @@
 .toolbar-spacer {
 	flex: 1 1 auto;
 }
+
+.parallax-background {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#first-parallax {
+	background-image: url("/assets/collage6.png");
+	height: 100%;
+	width: 100%;
+}
+
+#second-parallax {
+	background-image: url("/assets/collage7.png");
+	height: 80%;
+	width: 100%;
+}
+
+#third-parallax {
+	background-image: url("/assets/collage8.png");
+	height: 80%;
+	width: 100%;
+}

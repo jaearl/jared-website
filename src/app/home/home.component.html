@@ -1,3 +1,4 @@
+
 <div class="mat-app-background">
 	<mat-toolbar color="primary">
 	<span class="extra-pad"></span>
@@ -8,11 +9,24 @@
 	<button mat-flat-button (click)="scroll(roles)" class="main-font" color="primary">Roles</button>
 	<span class="extra-pad"></span>
 	</mat-toolbar>
-	<app-small-bio></app-small-bio>
-	<div #projects>
-		<app-projects></app-projects>
-	</div>
-	<div #roles>
-		<app-roles></app-roles>
-	</div>
 </div>
+
+<div class="mat-app-background parallax-background" id="first-parallax"></div>
+
+<div class="mat-app-background">
+	<app-small-bio></app-small-bio>
+</div>
+
+<div class="mat-app-background parallax-background" id="second-parallax"></div>
+
+<div #projects class="mat-app-background">
+	<app-projects></app-projects>
+</div>
+
+<div class="mat-app-background parallax-background" id="third-parallax"></div>
+
+<div #roles class="mat-app-background">
+	<app-roles></app-roles>
+</div>
+<!-- </div> -->
+<!-- <div id="first-par-image"></div> -->

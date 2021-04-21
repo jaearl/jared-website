@@ -1,6 +1,7 @@
 /* top right bottom left */
 .content {
    padding: 0px 100px 0px 100px;
+   overflow: hidden;
 }
 
 /* The purpose of this is to make the mat-card fill the entire flex layout grid tile. 
