@@ -15,6 +15,7 @@ import { SmallBioComponent } from './small-bio/small-bio.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { RolesComponent } from './roles/roles.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RolesComponent } from './roles/roles.component';
     SmallBioComponent,
     ToolbarComponent,
     ProjectsComponent,
-    RolesComponent
+    RolesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
