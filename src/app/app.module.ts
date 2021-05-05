@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -37,7 +37,9 @@ import { FooterComponent } from './footer/footer.component';
     MatButtonModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [
+    Title
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
